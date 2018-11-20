@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border box;
+}
+
+/*---------color #EAFEEA for bg text---------*/
+
+/*-------------------------------Landing Page*/
+#landing-page-bg {
+	background-image: url(../images/hh1.jpeg);
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+}
+
+#landing-page-header {
+	height: 100px;
+	width: 100%;
+	background-color: white;
+	opacity: 0.5;
+}
+
+#landing-page-section {
+	padding-top: 100px;
+	padding-right: 30px;
+}
+
+#landing-page-section-jumbotron {
+	background-color: #EAFEEA;
+}
+
+#landing-page-footer {
+	height: 100px;
+	width: 100%;
+	background-color: white;
+	opacity: 0.5;
+}
+/*-------------------------end---Landing Page*/
+/*----------------------------------Home Page*/
+
