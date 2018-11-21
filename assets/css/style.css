@@ -1,12 +1,16 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border box;
+	box-sizing: border-box;
 }
-
+/*-----------------------------------fonts-----------------------------------------*/
+h1,
+p {
+	font-family: 'Lato', sans-serif;
+}
 /*---------color #EAFEEA for bg text---------*/
 
-/*-------------------------------Landing Page*/
+/*---------------------------------Landing Page-------------------------------------*/
 #landing-page-bg {
 	background-image: url(../images/hh1.jpeg);
 	background-size: cover;
@@ -36,6 +40,141 @@
 	background-color: white;
 	opacity: 0.5;
 }
-/*-------------------------end---Landing Page*/
-/*----------------------------------Home Page*/
+/*-------------------------end------Landing Page-------------------------------------*/
+/*----------------------------------Home Page-------------------------------------*/
 
+#home-header {
+	background-image: url(../images/hh1.jpeg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 100vh;
+
+}
+
+#home-section2 {
+	background-color: #EAFEEA;
+	height: 100vh;
+}
+
+#carousel-home {
+	height: 100vh;
+}
+
+#carousel-home img{
+	height: 90vh;
+	max-height: 90vh;
+}
+
+#navbar {
+	margin-bottom: 30px;
+}
+/*-------navbar link to google--*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+nav {
+  font:700 16px/50px 'Lato', sans-serif;
+  width: 90%;
+  margin:30px auto 0 auto;
+  background: #242424;
+  overflow: hidden;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
+
+nav ul {
+  height: 50px;
+  overflow: hidden;
+}
+
+
+nav ul li {
+	width: 100px;
+	float: left;
+	text-align: center;
+}
+
+.item-container {
+	top: 0;
+	position: relative;
+	height: 60px;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition:  all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.item-container:hover {
+	top: -70px;
+}
+
+.item-top,
+.item-bottom {
+  height: 60px;
+  position: relative;
+}
+
+.item-bottom {
+	background-color: #ADFF2F;
+	border: 1px solid transparent;
+	border-top-left-radius: 30%;
+	border-top-right-radius: 30%;
+}
+
+/*-------------------------------Section1 Home*/
+
+/*-------------------------end---Section1 Home*/
+#home-footer {
+	background-image: url(../images/hh1.jpeg);
+	background-size: cover;
+	background-position: center center;
+	height: 100px;
+	width: 100%;
+
+}
+/*-------------------------end------Home Page-------------------------------------*/
+/*----------------------------------Advocate Page-------------------------------------*/
+#advocate-header {
+	background-image: url(../images/hh1.jpeg);
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+
+}
+#advocate-section1 {
+	background-image: url(../images/leaves.jpeg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	min-height: 100vh;
+	
+
+}
+
+
+#advocate-mission,
+#advocate-vision,
+#advocate-values {
+	height: 400px;
+	box-shadow: 8px 16px 10px #ADFF2F;
+	text-align: center;
+}
+
+#h1-mission,
+#h1-vision,
+#h1-values {
+	text-shadow: -1px 0 #ADFF2F, 0 1px #ADFF2F, 1px 0 #ADFF2F, 0 -1px #ADFF2F;
+
+}
+
+#advocate-footer {
+	background-image: url(../images/hh1.jpeg);
+	background-size: cover;
+	background-position: center center;
+	height: 100px;
+	width: 100%;
+
+}
