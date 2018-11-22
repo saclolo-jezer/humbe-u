@@ -8,8 +8,16 @@ h1,
 p {
 	font-family: 'Lato', sans-serif;
 }
+/*----------------------------end----fonts-----------------------------------------*/
 /*---------color #EAFEEA for bg text---------*/
 
+body {
+	background-color: #EAFEEA;
+}
+
+footer {
+
+}
 /*---------------------------------Landing Page-------------------------------------*/
 #landing-page-bg {
 	background-image: url(../images/hh1.jpeg);
@@ -40,8 +48,8 @@ p {
 	background-color: white;
 	opacity: 0.5;
 }
-/*-------------------------end------Landing Page-------------------------------------*/
-/*----------------------------------Home Page-------------------------------------*/
+/*---------------------------end---Landing Page------------------------------------*/
+/*----------------------------------Home Page---------------------------------------*/
 
 #home-header {
 	background-image: url(../images/hh1.jpeg);
@@ -75,13 +83,10 @@ p {
 nav {
   font:700 16px/50px 'Lato', sans-serif;
   width: 90%;
-  margin:30px auto 0 auto;
+  margin:0 auto;
   background: #242424;
   overflow: hidden;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -o-border-radius: 8px;
-  border-radius: 8px;
+  
 }
 
 nav ul {
@@ -135,8 +140,8 @@ nav ul li {
 	width: 100%;
 
 }
-/*-------------------------end------Home Page-------------------------------------*/
-/*----------------------------------Advocate Page-------------------------------------*/
+/*----------------------------end---Home Page---------------------------------------*/
+/*----------------------------------Advocate Page-----------------------------------*/
 #advocate-header {
 	background-image: url(../images/hh1.jpeg);
 	background-size: cover;
@@ -167,7 +172,6 @@ nav ul li {
 #h1-vision,
 #h1-values {
 	text-shadow: -1px 0 #ADFF2F, 0 1px #ADFF2F, 1px 0 #ADFF2F, 0 -1px #ADFF2F;
-
 }
 
 #advocate-footer {
@@ -176,5 +180,91 @@ nav ul li {
 	background-position: center center;
 	height: 100px;
 	width: 100%;
+}
+
+/*----------------------------------Gallary Page-----------------------------------*/
+/*----------------------------end---Gallary Page-----------------------------------*/
+/*----------------------------------Lifestyle Page---------------------------------*/
+
+#h1-lifestyle {
+	text-shadow: -1px 0 #ADFF2F, 0 1px #ADFF2F, 1px 0 #ADFF2F, 0 -1px #ADFF2F;
+}
+
+#lifestyle-footer {
+	background-image: url(../images/hh1.jpeg);
+	background-size: cover;
+	background-position: center center;
+	height: 100px;
+	width: 100%;
+}
+/*----------------------------end---Lifestyle Page-----------------------------------*/
+/*----------------------------------Humble Practices Page----------------------------*/
+#h1-humble-practices {
+	text-shadow: -1px 0 #ADFF2F, 0 1px #ADFF2F, 1px 0 #ADFF2F, 0 -1px #ADFF2F;
 
 }
+
+#humble-footer {
+	background-image: url(../images/hh1.jpeg);
+	background-size: cover;
+	background-position: center center;
+	height: 100px;
+	width: 100%;
+}
+
+/*----------------------------end---HUmble Practices Page----------------------------*/
+/*-----------------------------------Bad Practises Page------------------------------*/
+#h1-bad-practices {
+	text-shadow: -1px 0 #ADFF2F, 0 1px #ADFF2F, 1px 0 #ADFF2F, 0 -1px #ADFF2F;
+
+}
+#bad-practices-footer {
+	background-image: url(../images/hh1.jpeg);
+	background-size: cover;
+	background-position: center center;
+	height: 100px;
+	width: 100%;
+}
+
+/*---------------------------end---Bad PractisePage-----------------------------------*/
+
+/*----------------------------------Biblical Page-------------------------------------*/
+#h1-bible {
+	text-shadow: -1px 0 #ADFF2F, 0 1px #ADFF2F, 1px 0 #ADFF2F, 0 -1px #ADFF2F;
+}
+
+#section-jumbotron-bad-bible-reference {
+	box-shadow: 1px 1px #ADFF2F;
+
+}
+
+#child-of-section-jumbotron-bad {
+	box-shadow: 3px 6px 10px #ADFF2F;
+}
+
+#bible-references-footer {
+	background-image: url(../images/hh1.jpeg);
+	background-size: cover;
+	background-position: center center;
+	height: 100px;
+	width: 100%;
+}
+/*----------------------------end---Biblical Page-----------------------------------*/
+/*----------------------------------Contact Page-----------------------------------*/
+#h1-contact {
+	text-shadow: -1px 0 #ADFF2F, 0 1px #ADFF2F, 1px 0 #ADFF2F, 0 -1px #ADFF2F;
+}
+
+iframe {
+	box-shadow: 8px 16px 10px #ADFF2F;
+	margin-bottom: 40px;
+}
+
+#contact-footer {
+	background-image: url(../images/hh1.jpeg);
+	background-size: cover;
+	background-position: center center;
+	height: 100px;
+	width: 100%;
+}
+/*-----------------------------end---Contact Page-----------------------------------*/
